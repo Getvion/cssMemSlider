@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>CSS Meme Slider</title>
+</head>
+
+<body>
+  <div class="swiper">
+    <input type="radio" checked name="swiper" id="slide1">
+    <input type="radio" name="swiper" id="slide2">
+    <input type="radio" name="swiper" id="slide3">
+    <input type="radio" name="swiper" id="slide4">
+
+    <div class="swiper__container">
+      <div class="swiper__track">
+        <div class="slide">
+          <img src="meme1.jpg" alt="memas">
+        </div>
+        <div class="slide">
+          <img src="meme2.jpg" alt="memas">
+        </div>
+        <div class="slide">
+          <img src="meme3.jpg" alt="memas">
+        </div>
+        <div class="slide">
+          <img src="meme4.jpg" alt="memas">
+        </div>
+      </div>
+      <div class="row">
+        <div class="text">
+          <div class="text__slide1">meme 1</div>
+          <div class="text__slide2">meme 2</div>
+          <div class="text__slide3">meme 3</div>
+          <div class="text__slide4">meme 4</div>
+        </div>
+        <div class="bullets">
+          <label class="bullet-wrap" for="slide1">
+            <div class="dot"></div>
+          </label>
+          <label class="bullet-wrap" for="slide2">
+            <div class="dot"></div>
+          </label>
+          <label class="bullet-wrap" for="slide3">
+            <div class="dot"></div>
+          </label>
+          <label class="bullet-wrap" for="slide4">
+            <div class="dot"></div>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
