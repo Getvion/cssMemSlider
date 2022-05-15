@@ -15,9 +15,9 @@ input {
 }
 
 .swiper {
-  margin: 100px auto;
+  margin: 6.25rem auto;
   max-width: 50%;
-  border: 1px solid #fff;
+  border: 0.0625rem solid #fff;
 }
 
 .swiper__container {
@@ -30,7 +30,7 @@ input {
   width: 400%;
   display: flex;
   flex-wrap: nowrap;
-  max-height: 500px;
+  max-height: 31.25rem;
 }
 
 .slide {
@@ -48,7 +48,7 @@ input {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 20px;
+  padding-left: 1.25rem;
 }
 
 .bullets {
@@ -58,17 +58,17 @@ input {
 
 .bullet-wrap {
   cursor: pointer;
-  padding: 20px;
+  padding: 1.25rem;
 }
 
 .bullet-wrap .dot {
   transition: 0.3s;
-  width: 1.25rem;
-  height: 1.25rem;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
   background-color: black;
-  border: 1px solid darkblue;
-  padding: 10px;
+  border: 0.0625rem solid darkblue;
+  padding: 0.625rem;
 }
 
 .bullet-wrap:hover .dot {
@@ -109,7 +109,7 @@ input {
 }
 
 .text {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .text__slide1,
@@ -130,8 +130,8 @@ input {
   transition: 0.4s;
 }
 
-@media (max-width: 999px) {
+@media (max-width: 62.4375rem) {
   .swiper {
-    max-width: 700px;
+    max-width: 43.75rem;
   }
 }
